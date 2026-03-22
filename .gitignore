@@ -1,0 +1,14 @@
+# .gitignore
+venv/
+__pycache__/
+*.pyc
+.env
+data/raw/
+data/processed/
+models/
+*.json
+*.csv
+*.pkl
+*.npy
+debug.log
+.env
