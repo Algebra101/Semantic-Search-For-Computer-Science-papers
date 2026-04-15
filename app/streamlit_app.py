@@ -69,7 +69,7 @@ if st.button("Search"):
         st.subheader("Results")
         for i, row in results.iterrows():
             with st.container(border=True):
-                st.markdown(f"### {i + 1}. {row['title']}")
+                st.markdown(f"### {int(i) + 1}. {row['title']}")
                 st.write(row["abstract"])
                 st.caption(f"Category: {row['category']}")
                 st.caption(f"Keywords: {row['keywords']}")

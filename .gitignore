@@ -12,3 +12,5 @@ models/
 *.npy
 debug.log
 .env
+*.ipynb_checkpoints
+*.ipynb
